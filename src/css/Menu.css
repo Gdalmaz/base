@@ -1,0 +1,52 @@
+.menu{
+  top: 0;
+  margin-left:0%;
+  height: 100%;
+  width: 17%;
+  border: 1px solid red;
+  border-bottom: 5px;
+  background-color: black;
+  flex-direction: row;
+  flex: 1;
+  position: fixed;
+
+}
+
+.item-box-top{
+  z-index: 1000;
+  margin-top: 10%;
+  height: 82.5%;
+
+}
+
+
+
+.items{
+  padding-bottom: 10%;
+  padding-left: 15%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.items:hover {
+  transform: scale(1.1); /* Increase the size of the link on hover */
+  color: green;
+}
+.item-left-header{
+  margin-top: 15%;
+  margin-left: 20%;
+}
+
+.font-for-navbar{
+  font-size: 150%;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+}
+
+.support-bottom{
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 0;
+  padding-left: 8%;
+}

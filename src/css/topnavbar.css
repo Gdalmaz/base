@@ -1,0 +1,23 @@
+.navbar-top{
+    margin-top: 1.9%;
+    padding-left: 25%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.a-for-icon{
+    font-style: italic;
+    font-size: 200%;
+    color: black;
+    font-weight: 400;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.a-for-right{
+
+    font-style: italic;
+    font-size: 200%;
+    color: black;
+    font-weight: 400;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
