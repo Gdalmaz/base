@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../css/Menu.css';
 import { Routes,Route,Link,NavLink } from "react-router-dom";
-
+import Home from "../pages/Home";
 
 export default class Menu extends Component {
   render() {
@@ -12,10 +12,10 @@ export default class Menu extends Component {
         </div>
         <div className='item-box-top'>
           <div className='items'>
-            <a href='https://example.com/home'><i className="bi bi-house" style={{ fontSize: '1.9em', color: 'blue' }}></i>Home</a>
+            <Link to="/home"><i className="bi bi-house" style={{ fontSize: '1.9em', color: 'blue' }}></i>Home</Link>
           </div>
           <div className='items'>
-            <a href='https://example.com/profile'><i className="bi bi-person-circle" style={{ fontSize: '1.9em', color: 'blue' }}></i>Profile</a>
+            <Link to='/profile'><i className="bi bi-person-circle" style={{ fontSize: '1.9em', color: 'blue' }}></i>Profile</Link>
           </div>
           <div className='items'>
             <a href='https://example.com/search'><i className="bi bi-search" style={{ fontSize: '1.9em', color: 'blue' }}></i>Search</a>

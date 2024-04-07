@@ -9,22 +9,17 @@ import History from "./pages/History";
 
 function App() {
   return (<div>
-     
-
-    <Routes>
-       <Route path="/" element={<Navbar />} />  {/* Update path to "/" */}
-        <Route path="/addform" element={<Addform />} />  {/* Add route for "/addform" */}
-        <Route path="/mainmenu" element={<Home/>}/>
-    </Routes>
-
-    <Routes>
-      <Route path="/" element={<Menu/>}/>
-      <Route path="/profile" element={<Profile/>}/>
-      <Route path="/history" element={<History/>}/>
-    </Routes>
-
-
     
+    <Routes>
+      <Route path="/" element={<Navbar />} />  {/* Update path to "/" */}
+      <Route path="/addform" element={<Addform />} />  {/* Add route for "/addform" */}    
+    </Routes>
+      <Routes>
+      <Route path="/" element={<Menu/>}/>
+      <Route path="/home" Component={Home} />
+      <Route path="/profile" Component={Profile} />
+    </Routes>
+
   </div>
   );
 }
